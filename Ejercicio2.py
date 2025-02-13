@@ -1,9 +1,5 @@
-altura = 9  # Filas de ceros
-
-# Imprimir la estrella
+altura = 9 
 print(' ' * altura + '*')
-
-# Imprimir las filas de ceros
 for i in range(altura):
     espacios = ' ' * (altura - i - 1)
     ceros = '0' * (2 * i + 1)
